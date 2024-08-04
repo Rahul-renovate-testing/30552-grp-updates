@@ -1,0 +1,6 @@
+{
+  "packageRules": [{
+    "matchUpdateTypes": "patch",
+    "groupName": "patch updates"
+  }]
+}
