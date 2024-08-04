@@ -1,6 +1,12 @@
 {
-  "packageRules": [{
+  "packageRules": [
+    {
+    "matchPackageNames": "xmldoc",
+    "allowedVersions": "<1.2.0"
+  },
+    {
     "matchUpdateTypes": "patch",
     "groupName": "patch updates"
-  }]
+  }
+  ]
 }
